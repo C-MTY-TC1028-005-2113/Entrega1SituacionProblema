@@ -22,7 +22,7 @@ input_values = [
         "Pares Jugador1: 1"
          ],
         '''Debe salir:
-        otra cosa
+        otra cosa....
         '''
     ),
     (
