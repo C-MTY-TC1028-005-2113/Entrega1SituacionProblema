@@ -1,6 +1,7 @@
 # Nombre -
 # Matricula -
 # Carrera -
+figura = "?"
 def leer_cartas_jugador(nombre, tablero):
     pass
 
@@ -15,17 +16,15 @@ def main() :
     caso = int(input())
     if caso == 1:
         pares_jugador1 = 0
-        escondidas = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q']
+        escondidas = [['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q'], ['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q']]
         tablero = [['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
-        cantidad = int( input("Cantidad de laptops: "))
         r1,c1,r2,c2 = leer_cartas_jugador("Jugador1", tablero);
         pares_jugador1 += son_pares(1,tablero, escondidas,r1,c1,r2,c2)
         print("Pares Jugador1:",pares_jugador1)
     elif caso == 2:
         pares_jugador1 = 0
-        escondidas = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q']
+        escondidas = [['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q'], ['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q']]
         tablero = [['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
-        cantidad = int( input("Cantidad de laptops: "))
         r1,c1,r2,c2 = leer_cartas_jugador("Jugador1", tablero);
         pares_jugador1 += son_pares(1,tablero, escondidas,r1,c1,r2,c2)
         print(pares_jugador1)
