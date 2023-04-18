@@ -1,7 +1,6 @@
 ![Tec de Monterrey](images/logotecmty.png)
-# Ejercicios con funciones
+# Entrega2  Situación Problema TC1028
 
 
-- 04 Tienda Sillas.     __corresponde a: TIENDA DE LAPTOPS
-- 05 Binario - Decimal. __corresponde a: REPORTE A PARTIR DE MATRICES
+- 04 Tienda Sillas.     __corresponde a: Entrega2 Situación Problema
 
