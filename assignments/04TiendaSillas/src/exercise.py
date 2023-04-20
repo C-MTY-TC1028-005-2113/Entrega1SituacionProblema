@@ -42,6 +42,13 @@ def main() :
         r1,c1,r2,c2 = leer_cartas_jugador("Jugador1", tablero);
         pares_jugador1 += son_pares(1,tablero, escondidas,r1,c1,r2,c2)
         print(pares_jugador1)
+    elif caso == 3:
+        pares_jugador1 = 5
+        escondidas = [['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q'], ['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q']]
+        tablero = [['a', 'b', '?', '?', '?', 'f'], ['g', 'h', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['a', 'b', '?', '?', '?', 'f'], ['g', 'h', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+        r1,c1,r2,c2 = leer_cartas_jugador("Jugador23", tablero);
+        pares_jugador1 += son_pares(1,tablero, escondidas,r1,c1,r2,c2)
+        print("Pares Jugador23:",pares_jugador1)
 
 
 
