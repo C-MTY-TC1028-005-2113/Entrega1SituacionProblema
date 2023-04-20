@@ -49,7 +49,21 @@ def main() :
         r1,c1,r2,c2 = leer_cartas_jugador("Jugador23", tablero);
         pares_jugador1 += son_pares(1,tablero, escondidas,r1,c1,r2,c2)
         print("Pares Jugador23:",pares_jugador1)
-
+    elif caso == 4:
+        escondidas = [['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q'], ['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q']]
+        tablero = [['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+        r1,c1,r2,c2 = leer_cartas_jugador("Jugador1", tablero);
+        print(r1,c1,r2,c2)
+    elif caso == 5:
+        escondidas = [['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q'], ['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q']]
+        tablero = [['a', 'b', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['a', 'b', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+        r1,c1,r2,c2 = leer_cartas_jugador("Jugador2", tablero);
+        print(r1,c1,r2,c2)
+    elif caso == 6:
+        escondidas = [['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q'], ['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q']]
+        tablero = [['a', 'b', '?', '?', '?', 'f'], ['g', 'h', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['a', 'b', '?', '?', '?', 'f'], ['g', 'h', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+        r1,c1,r2,c2 = leer_cartas_jugador("Jugador23", tablero);
+        print(r1,c1,r2,c2)
 
 
 if __name__=='__main__':
