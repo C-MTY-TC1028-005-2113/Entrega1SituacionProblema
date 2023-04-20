@@ -36,12 +36,12 @@ def main() :
         pares_jugador1 += son_pares(1,tablero, escondidas,r1,c1,r2,c2)
         print("Pares Jugador1:",pares_jugador1)
     elif caso == 2:
-        pares_jugador1 = 0
+        pares_jugador1 = 10
         escondidas = [['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q'], ['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q']]
-        tablero = [['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
-        r1,c1,r2,c2 = leer_cartas_jugador("Jugador1", tablero);
+        tablero = [['a', 'b', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['a', 'b', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', '?']]
+        r1,c1,r2,c2 = leer_cartas_jugador("Jugador2", tablero);
         pares_jugador1 += son_pares(1,tablero, escondidas,r1,c1,r2,c2)
-        print(pares_jugador1)
+        print("Pares Jugador2:",pares_jugador1)
     elif caso == 3:
         pares_jugador1 = 5
         escondidas = [['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q'], ['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l'], ['m', 'n', 'ñ', 'o', 'p', 'q']]
